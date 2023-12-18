@@ -1,0 +1,11 @@
+1) Git Clone (Use only one time)
+ex : git clone https://github.com/Darshantada10/18_dec_laravel_perenexa.git
+	git clone your url
+
+Commands on repeat
+
+2) git add .
+
+3) git commit -m "update"
+
+4) git push
