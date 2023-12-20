@@ -1,5 +1,6 @@
 <?php
 
+//variable is the name of memory location
 
 // echo "this is line print with the help of php";
 // echo is a function used to print anything in php
