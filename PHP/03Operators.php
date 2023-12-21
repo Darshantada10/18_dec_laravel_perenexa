@@ -5,9 +5,9 @@
     // +,-,*,/,%,**
 // assignment operator
     // =,+=,-=,*=,/=,%=
-// conditional operator
+// comparison or relational operator
     // == , != , > , < , >= , <= , === , !==
-// logical or relational opertor
+// logical  opertor
 // bitwise operator
 // ternary operator
 // array operator
