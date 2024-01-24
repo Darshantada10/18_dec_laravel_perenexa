@@ -15,17 +15,23 @@
 // 6. it will overwrite
 // 7. that is why it is called loosely typed language
 
+// int $a = 1;
 
+// $@;
+// $@;
+
+// $nm@;
 $value_of_price;
 $_check;
 
+$jahan;
 
 $name1 = 1;
 $name1 = 1.1;
 $name3 = 'hey';
 $name4 = true;
 $name5 = false;
-$name6 = [1,2];
+$name6 = [1,2,'ok'];
 
 $name = "jahan";
 $language = "php";

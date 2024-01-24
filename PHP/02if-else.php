@@ -56,5 +56,81 @@ else
 }
 
 
+$besan = true;
+$ingridents = true;
+$eater = true;
+$cook = true;
+$weather = true;
+
+
+if($weather)
+{
+    if($cook)
+    {
+        if($eater)
+        {
+            if($ingridents)
+            {
+                if($besan)
+                {
+                    echo "Pakode";
+                }
+                else
+                {
+                    echo "no besan";
+                }
+            }
+            else
+            {
+                echo "no saman";
+            }
+        }
+        else
+        {
+            echo "no eater";
+        }
+    }
+    else
+    {
+        echo "no cook";
+    }
+}
+else
+{
+    echo "no weather";
+}
+
+
+
+$age = 18;
+if($age>0 && $age<5)
+{
+    echo "you can drink milk";
+}
+else if($age>5 && $age<10)
+{
+    echo "you can drink water";
+}
+else if($age>10 && $age<18)
+{
+    echo "you can drink soft drinks";
+}
+else if($age>=18)
+{
+    echo "you can drink beer";
+}
+else
+{
+    echo "you are not eligible";
+}
+
 
 ?>
+
+
+<!-- 
+        try all if else patterns
+        q-1 marking system
+        q-2 check his age and give permission
+        q-3 menu
+ -->
