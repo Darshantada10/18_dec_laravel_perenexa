@@ -70,7 +70,15 @@
 // echo "total is ".$answer; 
 
 
-
+echo "<br>";
+$age = 25;
+$message = ($age>=18) ? "you are adult" : "you are a kid";
+echo $message;
+echo "<br>";
+$marks = 40;
+$marksmessage = ($marks>90) ? "A Grade" : (($marks>80) ? "B Grade" : (($marks>50) ? "C Grade" : " D Grade"));
+echo $marksmessage;
+echo "<br>";
 
 // conditional operator
 
