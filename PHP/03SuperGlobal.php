@@ -1,5 +1,10 @@
 <?php
 
+// 1. Practice
+// 2. Reserach & Development
+// 3. Debugging
+
+
 echo "<pre>";
 
 // this is informative super global 
@@ -28,18 +33,71 @@ echo "<pre>";
 
 // it is all rounder
 // it will work for both methods get and post method of form tag
-print_r($_REQUEST);
+
+if (isset($_REQUEST['submit']))
+{
+    print_r($_REQUEST);
+    
+    if ($_FILES['profile']['name'] != null)
+    {
+        print_r($_FILES);
+    }
+}
 
 
-print_r($_FILES);
+
+
+// print_r($_FILES);
 
 
 
+// echo "</pre>";
+
+// $name = false;
+
+// var_dump($name);
+
+// if(isset($name))
+// {
+//     echo "success , inside if";
+// }
+// else 
+// {
+//     echo "inside else";
+// }
 
 
 
+// Data Setter
+    print_r( $_COOKIE);
 
 
+    // if($_COOKIE['course'] == "php")
+    // {
+    //     echo "you are a php student";
+    // }
+    // else if($_COOKIE['course'] == "python")
+    // {
+    //     echo "you are a python student";
+    // }
+    // else if($_COOKIE['course'] == "js")
+    // {
+    //     echo "you are a js student";
+    // }
+    // else
+    // {
+    //     echo "you are other technology student";
+    // }
+echo "<br>";
+if(isset($_COOKIE['name']))
+{
+    echo "welcome ".$_COOKIE['name'];
+}
+echo "<br>";
+if(isset($_COOKIE['course']))
+{
+    echo " your technology is  ".$_COOKIE['course'];
+}
 ?>
 
 <!-- this is asked in an interview and it's functionality -->
@@ -84,5 +142,5 @@ print_r($_FILES);
 <input type="text" name="mobile">
 <input type="text" name="name">
 <input type="file" name="profile">
-<button>Submit</button>
+<button name="submit">Submit</button>
 </form>
