@@ -69,7 +69,7 @@ if (isset($_REQUEST['submit']))
 
 
 // Data Setter
-    print_r( $_COOKIE);
+    // print_r( $_COOKIE);
 
 
     // if($_COOKIE['course'] == "php")
@@ -88,16 +88,28 @@ if (isset($_REQUEST['submit']))
     // {
     //     echo "you are other technology student";
     // }
-echo "<br>";
-if(isset($_COOKIE['name']))
-{
-    echo "welcome ".$_COOKIE['name'];
-}
-echo "<br>";
-if(isset($_COOKIE['course']))
-{
-    echo " your technology is  ".$_COOKIE['course'];
-}
+// echo "<br>";
+// if(isset($_COOKIE['name']))
+// {
+//     echo "welcome ".$_COOKIE['name'];
+// }
+// echo "<br>";
+// if(isset($_COOKIE['course']))
+// {
+//     echo " your technology is  ".$_COOKIE['course'];
+// }
+
+
+
+//Session
+session_start();
+
+$_SESSION = $_REQUEST['username'];
+print_r($_SESSION);
+
+
+
+
 ?>
 
 <!-- this is asked in an interview and it's functionality -->
@@ -143,4 +155,5 @@ if(isset($_COOKIE['course']))
 <input type="text" name="name">
 <input type="file" name="profile">
 <button name="submit">Submit</button>
+
 </form>
