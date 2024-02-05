@@ -1,0 +1,9 @@
+1st Mini Project without using database
+
+2nd Complete Project in Core PHP(You Decide the website)
+
+3rd Complete Project in Laravel (You Decide the website)
+
+4th Complete Project Chat Application 
+
+5th Project Assignment (I will tell you the website)
