@@ -1,47 +1,52 @@
 <?php
 
 
-/*
-
-    Player Name
-    Player Age
-    Player Role(Batsman,Bowler,All Rounder)
-
-    for ex :- 
-                match
-                not out
-                innings
-                score
-                highest score
-                
-                His Average
 
 
-*/
-
-
-/*
-    class classname {}
-*/
 class mobile
 {
-
+    function call()
+    {
+        echo "Call";
+    }
+    function sms()
+    {
+        echo "sms";
+    }
+    function browser()
+    {
+        echo "browser";
+    }
+    function music()
+    {
+        echo "music";
+    }
+    function video()
+    {
+        echo "video";
+    }
+    function game()
+    {
+        echo "game";
+    }
+    function photos()
+    {
+        echo "photos";
+    }
 }
 
-/*
-    class ka variable = new classname
-*/
-$something = new mobile;
+$myphone = new mobile;
 
+$myphone->call();
+echo "<br>";
+$myphone->sms();
+echo "<br>";
+$myphone->game();
+echo "<br>";
 
-
-
-
-
-
-
-
-
+// call();
+// sms();
+// game();
 
 
 
